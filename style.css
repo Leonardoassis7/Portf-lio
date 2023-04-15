@@ -2,6 +2,7 @@ body{
     background-color: rgb(43, 43, 43);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0%;
+    color: white;
 }
 
 .inicio{
@@ -23,6 +24,7 @@ body{
 }
 .p-30 {
     padding: 30px;
+    
 }
 .text{
     color: white;
@@ -35,29 +37,19 @@ body{
     flex-flow:row;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 40%;
     max-width: center;
-    background: #ffffff40;
-    box-shadow: 0 8px 32px 0 #1f26875e;
-    backdrop-filter: blur( 4px );
     overflow: hidden;
+    margin: 1,5%;
  }
-
- .containercard2 {
-    display: flex;
-    align-items: center;
-    justify-content: 80px;
-    min-height: 90vh;
-    color: white;
- }
-
-
- .containercard {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    color: white;
+.containercard {
+   flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   justify-self: center;
+   min-height: 100vh;
  }
  .card {
     background-image: linear-gradient(#333, #333);
@@ -74,6 +66,22 @@ body{
  .card:hover{
     background-image: linear-gradient(#672abf, #380e74);
  }
+
+ .card .img3{
+    background-image: url('https://i.pinimg.com/originals/fe/48/87/fe4887ff1ebbe1537e0dacb2820517da.png');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    opacity: .8;
+    transition: all .5s;
+    z-index: 2;
+ }
+
+
  .card .img2{
     background-image: url('https://i.pinimg.com/originals/24/12/4c/24124c35fdacbc14c5822268bac8be8d.png');
     background-position: center;
@@ -171,4 +179,31 @@ body{
     color: rgb(41, 201, 179);
     background-color: transparent;
     backdrop-filter: blur(500px);
+}
+.icons{
+    height: 6vh;
+    width: 6vh;
+    margin: 1%;
+}
+.container-contato{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    margin-right: 5%;
+    border-radius: 30%;
+    min-width: 30%;
+}
+.first-button{
+    color: #672abf;
+    list-style: none;
+}
+.container-button{
+    width: 189px;
+    height: 42px;
+}
+ul{
+    list-style: none;
 }
