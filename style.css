@@ -40,10 +40,10 @@ body{
     flex-flow:row;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 90%;
     max-width: center;
     overflow: hidden;
-    margin: 1,5%;
+    margin: 2%;
  }
 
 .container {
@@ -261,4 +261,8 @@ button:hover{
     border-radius: 12px;
     background-color: #ff04f2;
     transform: translateY(-7px);
+}
+.textoperfil{
+    font-size: 35px;
+    font-weight: bold;
 }
