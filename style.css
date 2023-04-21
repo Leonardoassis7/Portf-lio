@@ -25,8 +25,7 @@ body{
 .p-30 {
     margin: 0%;
     display: flex;
-    border: 5vh;
-    padding-left: 25%;
+    padding-left: 15%;
 }
 .text{
     color: white;
@@ -34,16 +33,23 @@ body{
     top: 260px;
     transition: top 7s;
 }
+.elementot{
+    background-color: #d42778;
+    border: 2px solid black;
+    margin: 5px;
+    top: 200px;
+    display: flex;
+}
 
 .containercapa{
     display: flex;
     flex-flow:row;
-    justify-content: center;
+    margin: 20px;
     align-items: center;
-    width: 90%;
-    max-width: center;
+    width: 100%;
+    
     overflow: hidden;
-    margin: 2%;
+    flex-wrap: wrap;
  }
 
 .container {
@@ -211,6 +217,18 @@ body{
     border-radius: 30%;
     min-width: 30%;
 }
+.container-contatop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+    margin-right: 5%;
+    border-radius: 30%;
+    padding: 0%;
+    margin: 5px;
+    
+}
 .first-button{
     color: #672abf;
     list-style: none;
@@ -266,4 +284,10 @@ button:hover{
 .titleperfil{
     font-size: 36px;
     font-weight: bold;
+}
+.containerfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
 }
